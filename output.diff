@@ -1,0 +1,32 @@
+--- git.js	2025-01-03 16:52:40.584179699 +0530
++++ githup.js.diff	2025-01-03 16:59:36.750348408 +0530
+@@ -1,10 +1,18 @@
+-const person = {
+-    name: "Alice",
+-    age: 25,
+-    greet: function() {
+-      console.log("Hello, " + this.name);
+-    }
+-  };
+-  
+-  console.log(person.name); 
+-  person.greet(); 
+\ No newline at end of file
++let day = 3;
++let dayName;
++
++switch (day) {
++  case 1:
++    dayName = "Monday";
++    break;
++  case 2:
++    dayName = "Tuesday";
++    break;
++  case 3:
++    dayName = "Wednesday";
++    break;
++  default:
++    dayName = "Unknown Day";
++}
++
++console.log(dayName); // Output: "Wednesday"
